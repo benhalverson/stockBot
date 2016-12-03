@@ -2,9 +2,11 @@
   "name": "stockBot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "dev": "nodemon app.js",
+    "preinstall": "npm install -g typescript"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,10 @@
     "express": "4.14.0",
     "morgan": "1.7.0",
     "request": "2.79.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "0.0.33",
+    "@types/express": "4.0.34",
+    "@types/morgan": "1.7.32"
   }
 }
