@@ -1,34 +1,19 @@
 {
-  "name": "stockBot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "build": "tsc",
-    "dev": "nodemon app.js",
-    "preinstall": "npm install -g typescript"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/benhalverson/stockBot.git"
-  },
-  "keywords": [],
-  "author": "Ben Halverson <benhalverson33@gmail.com> (http://benhalverson.me/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/benhalverson/stockBot/issues"
-  },
-  "homepage": "https://github.com/benhalverson/stockBot#readme",
-  "dependencies": {
-    "@types/request": "0.0.36",
-    "body-parser": "1.15.2",
-    "express": "4.14.0",
-    "morgan": "1.7.0",
-    "request": "2.79.0"
-  },
-  "devDependencies": {
-    "@types/body-parser": "0.0.33",
-    "@types/express": "4.0.34",
-    "@types/morgan": "1.7.32"
-  }
+	"author": "self <benhalverson@me.com>",
+	"dependencies": {},
+	"description": "Recime Bot",
+	"keywords": [
+		"Recime",
+		"Bot"
+	],
+	"license": "MIT",
+	"main": "main.js",
+	"name": "recime-bot",
+	"private": true,
+	"scripts": {
+		"build": "tsc",
+		"preinstall": "npm install -g typescript"
+	},
+	"title": "Recime Bot",
+	"version": "1.0.1"
 }

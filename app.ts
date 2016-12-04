@@ -35,6 +35,8 @@ export class Bot {
 
     request.get(url, (error, response, body)=>{
       //TODO refactor for stock api
+      // curl -H "Authorization: Bearer {access token}" https://api.tradier.com/v1/markets/quotes?symbols=SPY,SPY140627C00195500
+
         let photos = JSON.parse(body).photos;
 
         if (photos && photos.photo.length > 0){
