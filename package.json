@@ -1,19 +1,23 @@
 {
-	"author": "self <benhalverson@me.com>",
-	"dependencies": {},
-	"description": "Recime Bot",
-	"keywords": [
-		"Recime",
-		"Bot"
-	],
-	"license": "MIT",
-	"main": "main.js",
-	"name": "recime-bot",
-	"private": true,
-	"scripts": {
-		"build": "tsc",
-		"preinstall": "npm install -g typescript"
-	},
-	"title": "Recime Bot",
-	"version": "1.0.1"
+  "author": "None <benhalverson@me.com>",
+  "dependencies": {
+    "@types/request": "0.0.36",
+    "request": "^2.79.0",
+    "util": "^0.10.3"
+  },
+  "description": "Recime Bot",
+  "keywords": [
+    "Recime",
+    "Bot"
+  ],
+  "license": "MIT",
+  "main": "main.js",
+  "name": "recime-bot",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "preinstall": "npm install -g typescript"
+  },
+  "title": "Recime Bot",
+  "version": "1.0.1"
 }
