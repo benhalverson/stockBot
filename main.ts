@@ -36,21 +36,15 @@ export class Bot {
     request.get(url, (error, response, body)=>{
       //TODO refactor for stock api
       // curl -H "Authorization: Bearer {access token}" https://api.tradier.com/v1/markets/quotes?symbols=SPY,SPY140627C00195500
+        let header = `Bearer + ${apikey}`;
+        let stocks = JSON.parse(body).stocks;
 
-        let photos = JSON.parse(body).photos;
+        if (){
 
-        if (photos && photos.photo.length > 0){
-          let photo = photos.photo[0];
-          let url = util.format("http://farm%s.staticflickr.com/%s/%s_%s.jpg", photo.farm, photo.server, photo.id, photo.secret);
+
 
 
           let result = {
-            attachment: {
-              type: "image",
-              payload: {
-                url: url
-              }
-            }
           };
           cb(result);
         } else {
